@@ -45,5 +45,11 @@ namespace convolucion
         {
             MessageBox.Show("Hola mundo");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 FormPruebaDiego = new Form3();
+            FormPruebaDiego.Show();
+        }
     }
 }
