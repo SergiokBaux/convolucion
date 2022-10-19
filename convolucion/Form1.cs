@@ -21,7 +21,7 @@ namespace convolucion
             arduino = new System.IO.Ports.SerialPort();
             arduino.PortName = "COM14";
             arduino.BaudRate = 9600;
-            arduino.Open();
+            //arduino.Open();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -39,6 +39,11 @@ namespace convolucion
             string line=sr.ReadLine();
             arduino.Write(line);
             sr.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
