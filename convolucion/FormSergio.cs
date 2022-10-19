@@ -21,5 +21,10 @@ namespace convolucion
         {
             MessageBox.Show("Sergio");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola Diego");
+        }
     }
 }
